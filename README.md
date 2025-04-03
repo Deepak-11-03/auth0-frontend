@@ -31,7 +31,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 - AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
 
-- NEXT_PUBLIC_API_BASE_URL='http://localhost:3000'
+- NEXT_PUBLIC_API_BASE_URL={backend base url}
+
+- APP_BASE_URL={frontend base url}
 
 - AUTH0_DOMAIN='https://{yourDomain}'
 
