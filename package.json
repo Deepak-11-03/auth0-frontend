@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^4.4.0",
+    "autoprefixer": "^10.4.21",
     "axios": "^1.8.4",
     "lightningcss": "^1.29.3",
     "next": "15.2.4",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -24,7 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.1.1",
     "typescript": "^5"
   }
 }
