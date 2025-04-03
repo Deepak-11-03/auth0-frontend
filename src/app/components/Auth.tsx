@@ -2,9 +2,9 @@
 import axios from 'axios';
 import { useState } from 'react'
 import Spinner from './Spinner';
+import { SessionData } from '@auth0/nextjs-auth0/types';
 
-const Auth = ({ session }: any) => {
-
+const Auth = ({ session }: { session: SessionData }) => {
     const user = session?.user;
     const [isSending, setIsSending] = useState(false);
 

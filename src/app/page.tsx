@@ -1,12 +1,10 @@
 
 import { auth0 } from "@/lib/auth0";
 import Auth from './components/Auth';
+import { SessionData } from "@auth0/nextjs-auth0/types";
 
 export default async function Home() {
-  // Fetch the user session
-  const session = await auth0.getSession();
-
-  // If no session login buttons
+  const session: SessionData | null = await auth0.getSession();
   if (!session) {
     return (
       <main className='flex flex-col gap-4 items-center justify-center h-screen bg-gray-900 text-white'>
