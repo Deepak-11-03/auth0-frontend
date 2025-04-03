@@ -38,8 +38,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Create .env file and add these variables
 
-AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
-NEXT_PUBLIC_API_BASE_URL='http://localhost:3000'
-AUTH0_DOMAIN='https://{yourDomain}'
-AUTH0_CLIENT_ID='{yourClientId}'
-AUTH0_CLIENT_SECRET='{yourClientSecret}'
+- AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
+
+- NEXT_PUBLIC_API_BASE_URL='http://localhost:3000'
+
+- AUTH0_DOMAIN='https://{yourDomain}'
+
+- AUTH0_CLIENT_ID='{yourClientId}'
+
+- AUTH0_CLIENT_SECRET='{yourClientSecret}'
+
+
+## Run command
+
+- npm run dev
